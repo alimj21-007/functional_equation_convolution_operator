@@ -1,15 +1,16 @@
 cff-version: 1.2.0
-message: "If you use this repository or its results, please cite the following article."
+message: >
+  If you use this repository or its results, please cite the following article.
 title: "Functional Equation via Compact Convolution Operators: Spectral and Numerical Analysis Toward Zeta-Type Identities"
 authors:
-    family-names: Mozhgani
-    given-names: 
-    name: Seyed Ali
+  - family-names: Mozhgani
+    given-names: Seyed Ali
+    name: Seyed Ali Mozhgani
     affiliation: "Independent Researcher"
-    orcid: "0009-0002-8492-0519"  # ← Replace with your actual ORCID if available
+    orcid: "0009-0002-8492-0519"
 date-released: 2025-10-29
 version: "1.0.0"
-repository-code: "https://github.com/Alimj21-007/convolution-functional-equation"
+repository-code: "https://github.com/ali/convolution-functional-equation"
 license: MIT
 type: article
 keywords:
