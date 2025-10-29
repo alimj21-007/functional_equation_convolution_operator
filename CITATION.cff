@@ -1,10 +1,13 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite it as below."
+message: "If you use this article or repository, please cite it as below."
 title: "Functional Equation via Compact Convolution Operators"
 authors:
-  - name: Seyed Ali Mozhgani
-    orcid: "0009-0002-8492-0519"
+  - family-names: "Mozhgani"
+    given-names: "Seyed Ali"
+    orcid: "https://orcid.org/0009-0002-8492-0519"
+version: "1.0.0"
+doi: "10.5281/zenodo.1234567"  # ← اگر DOI واقعی داری، جایگزین کن
 date-released: 2025-10-29
-repository-code: "https://github.com/ali/convolution-functional-equation"
+url: "https://github.com/ali/convolution-functional-equation"
 license: MIT
 type: article
