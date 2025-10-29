@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Mozhgani"
+  given-names: "Seyed Ali"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Mozhgani"
+  given-names: "Ali"
+  orcid: "https://orcid.org/0009-0002-8492-0519"
+title: "functional_equation_convolution_operator"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2025-10-29
+url: "https://github.com/alimj21-007/functional_equation_convolution_operator"
