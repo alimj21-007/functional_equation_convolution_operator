@@ -3,11 +3,9 @@ message: >
   If you use this repository or its results, please cite the following article.
 title: "Functional Equation via Compact Convolution Operators: Spectral and Numerical Analysis Toward Zeta-Type Identities"
 authors:
-  - family-names: Mozhgani
-    given-names: Seyed Ali
-    name: Seyed Ali Mozhgani
-    affiliation: "Independent Researcher"
+  - name: Seyed Ali Mozhgani
     orcid: "0009-0002-8492-0519"
+    affiliation: "Independent Researcher"
 date-released: 2025-10-29
 version: "1.0.0"
 repository-code: "https://github.com/ali/convolution-functional-equation"
