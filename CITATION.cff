@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this repository or its results, please cite the following article."
 title: "Functional Equation via Compact Convolution Operators: Spectral and Numerical Analysis Toward Zeta-Type Identities"
 authors:
-  - family-names: Mozhgani
+    family-names: Mozhgani
     given-names: 
     name: Seyed Ali
     affiliation: "Independent Researcher"
