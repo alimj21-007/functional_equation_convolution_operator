@@ -1,0 +1,69 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{color}
+\usepackage{enumitem}
+\geometry{margin=1in}
+
+\title{Spectral Determinants and the Riemann Zeta Function}
+\author{Seyed Ali Mozhgani}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper develops a spectral framework for analyzing the Riemann zeta function using Fredholm determinants of kernel operators. We construct a family of operators \( K_s \) whose determinants \(\Xi(s) = \det(I - K_s)\) exhibit symmetry and magnitude patterns similar to \(\zeta(s)\) along the critical line. Numerical experiments and visualizations support the spectral interpretation of zeta behavior.
+\end{abstract}
+
+\tableofcontents
+
+\section{Introduction}
+We explore the use of spectral operators and Fredholm determinants to study the Riemann zeta function. The goal is to construct a numerically tractable analogue \(\Xi(s)\) that reflects key features of \(\zeta(s)\), including symmetry and zero distribution.
+
+\section{Fredholm Determinants and Kernel Operators}
+Let \( K_s \) be a compact integral operator with kernel \( K_s(x, y) \). The Fredholm determinant is defined by:
+\[
+\Xi(s) := \det(I - K_s)
+\]
+This determinant encodes spectral data and serves as a potential analogue to \(\zeta(s)\).
+
+\section{Functional Equation and Symmetry}
+We test whether \(\Xi(s)\) satisfies a symmetry analogous to the functional equation of \(\zeta(s)\):
+\[
+|\Xi(0.5 + it)| \approx |\Xi(0.5 - it)|
+\]
+Plots and numerical comparisons are used to assess this symmetry.
+
+\section{Numerical Experiments}
+We discretize \( K_s \) over a grid and compute:
+\begin{itemize}
+    \item Fredholm determinant \(\Xi(s)\)
+    \item Spectral radius \(\rho(K_s)\)
+    \item Dominant eigenvalue
+    \item Symmetry plots and difference curves
+\end{itemize}
+All computations are performed using Python with double precision.
+
+\section{Results and Visualization}
+Figures include:
+\begin{itemize}
+    \item \texttt{spectral\_radius\_plot.pdf}
+    \item \texttt{functional\_equation\_symmetry.pdf}
+    \item \texttt{functional\_equation\_symmetry\_diff.pdf}
+\end{itemize}
+These plots demonstrate the alignment between \(\Xi(s)\) and \(\zeta(s)\) in magnitude and symmetry.
+
+\section{Conclusion}
+The Fredholm determinant \(\Xi(s)\) offers a promising spectral analogue to the Riemann zeta function. While no formal equivalence is claimed, numerical evidence suggests structural parallels worth further investigation.
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
