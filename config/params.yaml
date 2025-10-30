@@ -1,0 +1,50 @@
+# Spectral Analysis Configuration for Paper 2
+
+grid:
+  domain_start: 0.1
+  domain_end: 1.0
+  num_points: 40
+  quadrature: midpoint  # options: midpoint, trapezoidal
+
+spectral_parameter:
+  sigma: 0.5
+  t_min: 0.0
+  t_max: 20.0
+  t_steps: 200
+  line: vertical  # Re(s) = sigma
+
+kernel:
+  type: gaussian
+  expression: "exp(-s * (x - y)^2)"
+  normalize: false
+
+determinant:
+  method: numpy_det  # options: numpy_det, slogdet
+  normalize_by_grid_size: true
+  output_csv: true
+
+eigenvalues:
+  compute_spectral_radius: true
+  compute_dominant_real: true
+
+symmetry_test:
+  enable: true
+  compare_s_plus_minus: true
+  output_diff_plot: true
+
+output:
+  save_pdf: true
+  save_csv: true
+  figures:
+    - spectral_radius_plot.pdf
+    - spectral_radius_diff_plot.pdf
+    - functional_equation_symmetry.pdf
+    - functional_equation_symmetry_diff.pdf
+  tables:
+    - xi_values.csv
+    - eigenvalues.csv
+
+documentation:
+  language: bilingual  # options: english, persian, bilingual
+  include_metadata: true
+  mobile_friendly: true
